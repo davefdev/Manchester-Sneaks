@@ -1,15 +1,17 @@
 import React from "react";
 import css from "./Header.module.css";
+import Logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <div className={css.container}>
-      <div className={css.logo}>Logo</div>
+      <div className={css.logo}>
+        <img src={Logo} alt="" />
+        <span>Manc Sneaks</span>
+      </div>
 
       <div className={css.right}>
-        <div className={css.menu}>
-
-        </div>
+        <div className={css.menu}></div>
 
         <input type="text" className={css.search} />
 
