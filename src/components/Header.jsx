@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Header.module.css";
 import Logo from "../assets/logo.png";
+import { CgShoppingBag } from "react-icons/cg";
 
 const Header = () => {
   return (
@@ -23,7 +24,7 @@ const Header = () => {
 
         <input type="text" className={css.search} />
 
-        <CgShoppingBag className={css.cart}/>
+        <CgShoppingBag className={css.cart} />
       </div>
     </div>
   );
