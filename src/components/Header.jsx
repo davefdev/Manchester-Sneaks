@@ -16,7 +16,7 @@ const Header = () => {
           <ul className={css.menu}>
             <li>Collections</li>
             <li>Brands</li>
-            <li>New</li>
+            <li>New Product</li>
             <li>Sales</li>
             <li>Eng</li>
           </ul>
