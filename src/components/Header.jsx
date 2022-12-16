@@ -14,7 +14,7 @@ const Header = () => {
       <div className={css.right}>
         <div className={css.menu}>
           <ul className={css.menu}>
-            <li>Collections</li>
+            <li>Collectionsv</li>
             <li>Brands</li>
             <li>New Products</li>
             <li>Sales</li>
